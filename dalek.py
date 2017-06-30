@@ -206,7 +206,7 @@ class Dalek:
 						cmd = "espeak -v en-rp '%s' -p %s -s %s -a %s -z 2>/dev/null" % (syllable, pitch, speed, amplitude)
 						self.doCommand("dome on")
 						os.system(cmd)
-					self.doCommand("dome off")
+						self.doCommand("dome off")
 
 
 
